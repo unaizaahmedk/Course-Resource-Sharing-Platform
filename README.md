@@ -4,7 +4,7 @@ A Django-based web application where students can share, browse, and borrow acad
 
 ---
 
-## About the Project
+## About
 
 Traditional course material sharing relies on message groups, email chains, or scattered cloud links. This platform replaces that with an organized system where students can upload resources they own, discover resources shared by peers, and borrow physical materials — all in one place.
 
@@ -12,52 +12,36 @@ Traditional course material sharing relies on message groups, email chains, or s
 
 ## Features
 
-### User Authentication
-- Sign up with username and email, with duplicate validation
-- Secure password hashing
-- Login and logout functionality
-- Non-authenticated users can browse and view resources but cannot upload, download, or borrow
-- Admin access via Django's admin panel
+**User Authentication**
+Sign up with username and email, with duplicate validation and secure password hashing. Non-authenticated users can browse and view resources but cannot upload, download, or borrow. Admin access is available via Django's admin panel.
 
-### Resource Listing
-- Logged-in students can list a resource with a name, description, course, and category
-- Two resource types:
-  - **Soft Copy** — PDFs, notes, books, or any downloadable material uploaded as a file for direct download
-  - **Hard Copy** — Physical books or printed notes uploaded as images so students can preview and decide whether to borrow them physically
+**Resource Listing**
+Logged-in students can list a resource with a name, description, course, and category. Soft copy resources such as PDFs, notes, or books are uploaded as a file for direct download. Hard copy resources such as physical books or printed notes are uploaded as images so students can preview and decide whether to borrow them physically.
 
-### Browse and Search
-- Search resources by name or description
-- Filter by course and category
-- Results paginated at 12 per page
-- Available to all users; downloading or borrowing requires login
+**Browse and Search**
+Search resources by name or description and filter by course and category. Results are paginated at 12 per page. Available to all users; downloading or borrowing requires login.
 
-### Resource Detail Page
-- Full resource information including description, course, and category
-- Downloadable file or preview images depending on resource type
-- Average star rating and all community reviews
+**Resource Detail Page**
+Full resource information including description, course, and category, along with a downloadable file or preview images, average star rating, and all community reviews.
 
-### Borrow and Return
-- Students can borrow a hard copy resource by selecting a return date
-- Borrowed resources are marked unavailable until returned
-- Students cannot borrow their own resources
-- Availability is restored once the resource is returned
+**Borrow and Return**
+Students can borrow a hard copy resource by selecting a return date. Borrowed resources are marked unavailable until returned. Students cannot borrow their own resources.
 
-### My Resources
-- Students can view all resources they have personally listed, whether soft or hard copy
+**My Resources**
+Students can view all resources they have personally listed, whether soft or hard copy.
 
-### Borrowed Resources
-- Students can view all resources they currently have on loan along with their return dates
+**Borrowed Resources**
+Students can view all resources they currently have on loan along with their return dates.
 
-### Ratings and Feedback
-- Students can leave a star rating out of 5 and a written comment on any resource
-- Average rating is automatically recalculated on every new submission
+**Ratings and Feedback**
+Students can leave a star rating out of 5 and a written comment on any resource. The average rating is automatically recalculated on every new submission.
 
 ---
 
 ## Tech Stack
 
 | Layer | Technology |
-|-------|------------|
+|---|---|
 | Backend | Python, Django 5.1.1 |
 | Database | SQLite |
 | Frontend | HTML5, CSS3, JavaScript |
@@ -69,49 +53,32 @@ Traditional course material sharing relies on message groups, email chains, or s
 
 ## Installation
 
-### Prerequisites
-- Python 3.8+
-- pip
-- Git
+**Prerequisites:** Python 3.8+, pip, Git
 
-### Steps
-
-**1. Clone the repository**
 ```bash
+# Clone the repository
 git clone https://github.com/unaizaahmedk/Course-Resource-Sharing-Platform.git
 cd Course-Resource-Sharing-Platform
-```
 
-**2. Create and activate a virtual environment**
-```bash
+# Create and activate a virtual environment
 python -m venv venv
 source venv/Scripts/activate   # Windows
 source venv/bin/activate        # macOS/Linux
-```
 
-**3. Install dependencies**
-```bash
+# Install dependencies
 pip install -r requirements.txt
-```
 
-**4. Run migrations**
-```bash
+# Run migrations
 python manage.py migrate
-```
 
-**5. Create a superuser**
-```bash
+# Create a superuser
 python manage.py createsuperuser
-```
 
-**6. Start the development server**
-```bash
+# Start the server
 python manage.py runserver
 ```
 
-**7. Access the app**
-- Main app: `http://127.0.0.1:8000/`
-- Admin panel: `http://127.0.0.1:8000/admin/`
+Access the app at `http://127.0.0.1:8000/` and the admin panel at `http://127.0.0.1:8000/admin/`
 
 ---
 
@@ -144,7 +111,7 @@ resource_sharing/
 ## Database Models
 
 | Model | Key Fields |
-|-------|------------|
+|---|---|
 | User | userid, username, email, password, is_admin |
 | Course | courseid, coursename, coursecode |
 | ResourceCategory | categoryid, categoryname, is_public |
@@ -156,3 +123,4 @@ resource_sharing/
 
 ---
 
+*Built by Unaiza Ahmed Khan*
