@@ -1,4 +1,4 @@
-# Course Resource Sharing Platform
+## Course Resource Sharing Platform
 
 A Django-based web application that enables students to share, browse, and borrow academic resources across courses. The application serves as a centralized hub where students can upload resources they own, discover resources shared by peers, and borrow physical materials, all in one place. The project was shortlisted as one of the top projects in the Database course.
 
