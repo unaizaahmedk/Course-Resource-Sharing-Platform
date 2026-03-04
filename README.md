@@ -2,7 +2,6 @@
 
 A Django-based web application that enables students to share, browse, and borrow academic resources across courses. The application serves as a centralized hub where students can upload resources they own, discover resources shared by peers, and borrow physical materials, all in one place. The project was shortlisted as one of the top projects in the Database course.
 
----
 
 ### Features
 
@@ -30,7 +29,7 @@ Students can view all resources they currently have on loan along with the date 
 **8. Ratings and Feedback**
 Students can leave a star rating out of 5 and a written comment on any resource. The average rating is automatically recalculated and updated on every new submission.
 
----
+
 
 ### Tech Stack
 
@@ -43,7 +42,7 @@ Students can leave a star rating out of 5 and a written comment on any resource.
 | File Handling | Django FileField, ImageField |
 | Version Control | Git & GitHub |
 
----
+
 
 ### Installation
 
@@ -74,7 +73,7 @@ python manage.py runserver
 
 Access the app at `http://127.0.0.1:8000/` and the admin panel at `http://127.0.0.1:8000/admin/`
 
----
+
 
 ### Project Structure
 
@@ -100,7 +99,6 @@ resource_sharing/
 └── db.sqlite3
 ```
 
----
 
 ### Database Models
 
@@ -114,5 +112,3 @@ resource_sharing/
 | Borrowing | borrower, resource, borrowdate, returndate, status |
 | Feedback | resource, borrower, rating, comment |
 | Lender | user, course, category, lendingdate |
-
----
