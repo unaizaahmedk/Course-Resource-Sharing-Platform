@@ -6,7 +6,7 @@ A Django-based web application where students can share, browse, and borrow acad
 
 ## About
 
-Traditional course material sharing relies on message groups, email chains, or scattered cloud links. This platform replaces that with an organized system where students can upload resources they own, discover resources shared by peers, and borrow physical materials — all in one place.
+Traditional course material sharing relies on message groups, email chains, or scattered cloud links. This platform replaces that with an organized system where students can upload resources they own, discover resources shared by peers, and borrow physical materials, all in one place.
 
 ---
 
