@@ -1,0 +1,64 @@
+﻿{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Course Resource Sharing Platform</title>
+    <link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>COURSE RESOURCE</h1>
+                <h2>SHARING PLATFORM</h2>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="{% url 'dashboard' %}">Dashboard</a></li>
+                <li><a href="{% url 'logged_browse_courses' %}">Browse Courses</a></li>
+                <li><a href="{% url 'browse_resource' %}">Browse Resources</a></li>
+                <li><a href="{% url 'logout' %}">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome-message">
+            <h1 style="color: #007BFF;">Welcome, {{ user.username }}!</h1>
+            <p>Your learning journey starts here. Explore, share, and borrow resources easily.</p>
+        </section>
+
+    <section class="dashboard">
+        <div class="dashboard-cards">
+            <!-- First row: My Resources and Borrowed Resources -->
+            <div class="card-row">
+                <a href="{% url 'my_resources' %}" class="card my-resources">
+                     <img src="{% static 'images/Course Resource Sharing Platform (4).png' %}" alt="My Resources">
+                     <h3>My Resources</h3>
+                     <p>View and manage the resources you've uploaded</p>
+                </a>
+
+                <a href="{% url 'borrowed_resources' %}" class="card borrowed-resources">
+                    <img src="{% static 'images/ABC05983.jpg' %}" alt="Borrowed Resources">
+                    <h3>Borrowed Resources</h3>
+                    <p>Check the resources you have borrowed</p>
+                </a>
+            </div>
+
+            <!-- Second row: Add Resources -->
+            <div class="card-row add-resource-row">
+                <a href="{% url 'add_resources' %}"  class="card add-resource">
+                    <img src="{% static 'images/borrowed.jpg' %}" alt="Add Resources">
+                    <h3>Add Resources</h3>
+                    <p>Upload new resources for any available course</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    </main>
+</body>
+</html>
+

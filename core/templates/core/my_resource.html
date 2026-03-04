@@ -1,0 +1,58 @@
+﻿{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Uploaded Resources</title>
+    <link rel="stylesheet" href="{% static 'css/my_resource.css' %}">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>COURSE RESOURCE</h1>
+                <h2>SHARING PLATFORM</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="{% url 'dashboard' %}">Dashboard</a></li>
+                <li><a href="{% url 'logged_browse_courses' %}">Browse Courses</a></li>
+                <li><a href="{% url 'browse_resource' %}">Browse Resources</a></li>
+                <li><a href="{% url 'logout' %}">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 style="margin: 5px; text-align: center; color: #007BFF;">My Uploaded Resources</h2>
+        <div class="resource-feed">
+            {% if resources %}
+            {% for resource in resources %}
+            <!-- Wrap the card in a clickable link -->
+            <a href="{% url 'resource_details' resource.resourceid %}" class="resource-card-link">
+                <div class="resource-card">
+                    <div class="card-header">
+                        <h3>{{ resource.resourcename }}</h3>
+                        <p class="meta">
+                            <strong>Uploaded by:</strong>
+                            <span class="username">{{ resource.lender.username }}</span>
+                            <span class="date">on {{ resource.uploaded_on|date:"F j, Y, g:i a" }}</span>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Description:</strong> {{ resource.description }}</p>
+                        <p><strong>Category:</strong> {{ resource.category.categoryname }}</p>
+                        <p><strong>Course:</strong> {{ resource.course.coursename }}</p>
+                        <p><strong>Availability:</strong> {{ resource.availability|yesno:"Available,Unavailable" }}</p>
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+            {% else %}
+            <p style="text-align: center;">You have not uploaded any resources yet.</p>
+            {% endif %}
+        </div>
+    </main>
+</body>
+</html>

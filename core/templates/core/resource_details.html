@@ -1,0 +1,133 @@
+﻿{% load static %}
+{% load custom_filters %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/resource_details.css' %}">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>COURSE RESOURCE</h1>
+                <h2>SHARING PLATFORM</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="{% url 'dashboard' %}">Dashboard</a></li>
+                <li><a href="{% url 'logged_browse_courses' %}">Browse Courses</a></li>
+                <li><a href="{% url 'browse_resource' %}">Browse Resources</a></li>
+                <li><a href="{% url 'logout' %}">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="resource-feed">
+            <div class="resource-card">
+                <div class="card-header">
+                    <h3>{{ resource.resourcename }}</h3>
+                    <p class="meta">
+                        <strong>Uploaded by</strong>
+                        <span class="username">{{ resource.lender.username }}</span>
+                        <span class="date">on {{ resource.uploaded_on|date:"F j, Y, g:i a" }}</span>
+                    </p>
+                </div>
+                <div class="card-body">
+                    <p><strong>Description:</strong> {{ resource.description }}</p>
+                    <p><strong>Category:</strong> {{ resource.category.categoryname }}</p>
+                    <p><strong>Course:</strong> {{ resource.course.coursename }}</p>
+                    <p><strong>Availability:</strong> {{ resource.availability|yesno:"Available,Unavailable" }}</p>
+
+                    {% if resource.file %}
+                    <p><strong>File:</strong> <a href="{{ resource.file.url }}" target="_blank" style="text-decoration: none;">Download/View File</a></p>
+                    {% endif %}
+
+                    {% if resource.images.all %}
+                    <p>
+                        <strong style="display: inline;">Image URLs:</strong>
+                        {% for image in resource.images.all %}
+                        <a href="{{ image.image.url }}" target="_blank" style="text-decoration: none; display: inline; margin-left: 10px;">View Image</a>
+                        {% endfor %}
+                    </p>
+                    {% endif %}
+                    {% if not resource.category.is_public %}
+                    <a href="{% url 'borrow_resource' resource.resourceid %}" class="borrow-btn" style="padding: 10px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer; text-align: center; font-weight: normal; font-size: 14px; transition: background-color 0.3s ease; display: block; margin: 5px 1px 0; width: 184px; text-decoration: none;">
+                        Borrow
+                    </a>
+                    {% endif %}
+
+                </div>
+                <div class="card-footer">
+                    <div class="overall-rating">
+                        <h4>Overall Rating:</h4>
+                        <div class="rating-stars">
+                            {% for star in filled_stars %}
+                            ★
+                            {% endfor %}
+                            {% for star in empty_stars %}
+                            ☆
+                            {% endfor %}
+                        </div>
+                        <p><strong>{{ resource.average_rating }}</strong> out of 5 | <span>{{ resource.total_ratings }} ratings</span></p>
+                    </div>
+                    <div class="comments-section">
+                        <br>
+                        <h4>Feedback:</h4>
+                        {% for feedback in resource.feedback_set.all %}
+                        <div class="feedback-comment">
+                            <div class="user-info">
+                                <p><strong>{{ feedback.borrower.username }}</strong></p>
+
+                                {% if feedback.rating %}
+                                <div class="rating-stars">
+                                    {% for i in feedback.rating|range_filter %}
+                                    ★
+                                    {% endfor %}
+                                </div>
+
+                                <div class="rating-stars">
+                                    {% for i in 5|add:"-"|add:feedback.rating|range_filter %}
+                                    ☆
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                            </div>
+
+                            {% if feedback.comment %}
+                            <p class="comment-text">{{ feedback.comment }}</p>
+                            {% endif %}
+                        </div>
+                        {% empty %}
+                        <p>No feedback yet. Be the first to leave a rating!</p>
+                        {% endfor %}
+                    </div>
+
+                    <div class="add-feedback">
+                        <h4>Leave a Rating or Comment:</h4>
+                        <form method="post" action="{% url 'add_feedback' resource.resourceid %}">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <label for="rating">Rating (1-5):</label>
+                                <select name="rating" id="rating">
+                                    <option value="">Select</option>
+                                    {% for i in rating_range %}
+                                    <option value="{{ i }}">{{ i }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="comment">Comment:</label>
+                                <textarea name="comment" id="comment" rows="4"></textarea>
+                            </div>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

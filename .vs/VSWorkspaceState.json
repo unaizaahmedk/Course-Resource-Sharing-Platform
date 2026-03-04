@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\core",
+    "\\core\\templates",
+    "\\core\\templates\\core",
+    "\\core\\templatetags",
+    "\\resources",
+    "\\resource_sharing",
+    "\\static",
+    "\\static\\css",
+    "\\static\\images"
+  ],
+  "PreviewInSolutionExplorer": false
+}

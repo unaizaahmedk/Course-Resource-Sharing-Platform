@@ -1,0 +1,547 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\browse_styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:static\\css\\browse_styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\browse_res.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:static\\css\\browse_res.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\borrowed_res.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:static\\css\\borrowed_res.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\borrow.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:static\\css\\borrow.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\add_res.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:static\\css\\add_res.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:static\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\resource_details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:static\\css\\resource_details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\my_resource.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:static\\css\\my_resource.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\login_styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:static\\css\\login_styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\logged_browse_course.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:static\\css\\logged_browse_course.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\home_styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:static\\css\\home_styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:static\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\signup.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:core\\templates\\core\\signup.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\resource_details.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:core\\templates\\core\\resource_details.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\my_resource.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:core\\templates\\core\\my_resource.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:core\\templates\\core\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\logged_browse_course.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:core\\templates\\core\\logged_browse_course.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:core\\templates\\core\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\dashboard.html||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:core\\templates\\core\\dashboard.html||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\browse_resource.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:core\\templates\\core\\browse_resource.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\browse_course.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:core\\templates\\core\\browse_course.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\borrowed_resource.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:core\\templates\\core\\borrowed_resource.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\borrow.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:core\\templates\\core\\borrow.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\add_resource.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:core\\templates\\core\\add_resource.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:core\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:core\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:core\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templatetags\\custom_filters.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:core\\templatetags\\custom_filters.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\resource_sharing\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:resource_sharing\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\admin.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:core\\admin.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\forms.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:core\\forms.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "add_res.css",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\add_res.css",
+              "RelativeDocumentMoniker": "static\\css\\add_res.css",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\add_res.css",
+              "RelativeToolTip": "static\\css\\add_res.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-19T11:40:49.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "borrow.css",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\borrow.css",
+              "RelativeDocumentMoniker": "static\\css\\borrow.css",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\borrow.css",
+              "RelativeToolTip": "static\\css\\borrow.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-27T15:57:49.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "borrowed_res.css",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\borrowed_res.css",
+              "RelativeDocumentMoniker": "static\\css\\borrowed_res.css",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\borrowed_res.css",
+              "RelativeToolTip": "static\\css\\borrowed_res.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-25T09:41:25.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "browse_res.css",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\browse_res.css",
+              "RelativeDocumentMoniker": "static\\css\\browse_res.css",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\browse_res.css",
+              "RelativeToolTip": "static\\css\\browse_res.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-24T07:44:19.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "browse_styles.css",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\browse_styles.css",
+              "RelativeDocumentMoniker": "static\\css\\browse_styles.css",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\browse_styles.css",
+              "RelativeToolTip": "static\\css\\browse_styles.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-12T11:13:45.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\styles.css",
+              "RelativeDocumentMoniker": "static\\css\\styles.css",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\styles.css",
+              "RelativeToolTip": "static\\css\\styles.css",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAJwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-12T04:49:47.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "resource_details.css",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\resource_details.css",
+              "RelativeDocumentMoniker": "static\\css\\resource_details.css",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\resource_details.css",
+              "RelativeToolTip": "static\\css\\resource_details.css",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAAANkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-25T15:18:08.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "my_resource.css",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\my_resource.css",
+              "RelativeDocumentMoniker": "static\\css\\my_resource.css",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\my_resource.css",
+              "RelativeToolTip": "static\\css\\my_resource.css",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAAAKwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-24T11:21:26.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "login_styles.css",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\login_styles.css",
+              "RelativeDocumentMoniker": "static\\css\\login_styles.css",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\login_styles.css",
+              "RelativeToolTip": "static\\css\\login_styles.css",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAAAEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-12T07:16:24.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "logged_browse_course.css",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\logged_browse_course.css",
+              "RelativeDocumentMoniker": "static\\css\\logged_browse_course.css",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\logged_browse_course.css",
+              "RelativeToolTip": "static\\css\\logged_browse_course.css",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAAGQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-25T19:52:00.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "home_styles.css",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\home_styles.css",
+              "RelativeDocumentMoniker": "static\\css\\home_styles.css",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\home_styles.css",
+              "RelativeToolTip": "static\\css\\home_styles.css",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAHkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-12T09:19:02.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "dashboard.css",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\dashboard.css",
+              "RelativeDocumentMoniker": "static\\css\\dashboard.css",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\static\\css\\dashboard.css",
+              "RelativeToolTip": "static\\css\\dashboard.css",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAJEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-19T10:09:34.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "signup.html",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\signup.html",
+              "RelativeDocumentMoniker": "core\\templates\\core\\signup.html",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\signup.html",
+              "RelativeToolTip": "core\\templates\\core\\signup.html",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAwAoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-12T04:46:31.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "resource_details.html",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\resource_details.html",
+              "RelativeDocumentMoniker": "core\\templates\\core\\resource_details.html",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\resource_details.html",
+              "RelativeToolTip": "core\\templates\\core\\resource_details.html",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAwwGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-25T15:17:09.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "my_resource.html",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\my_resource.html",
+              "RelativeDocumentMoniker": "core\\templates\\core\\my_resource.html",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\my_resource.html",
+              "RelativeToolTip": "core\\templates\\core\\my_resource.html",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-24T10:50:56.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "login.html",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\login.html",
+              "RelativeDocumentMoniker": "core\\templates\\core\\login.html",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\login.html",
+              "RelativeToolTip": "core\\templates\\core\\login.html",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-12T07:15:47.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "logged_browse_course.html",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\logged_browse_course.html",
+              "RelativeDocumentMoniker": "core\\templates\\core\\logged_browse_course.html",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\logged_browse_course.html",
+              "RelativeToolTip": "core\\templates\\core\\logged_browse_course.html",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-25T19:50:46.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "home.html",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\home.html",
+              "RelativeDocumentMoniker": "core\\templates\\core\\home.html",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\home.html",
+              "RelativeToolTip": "core\\templates\\core\\home.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-12T09:17:31.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "dashboard.html",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\dashboard.html",
+              "RelativeDocumentMoniker": "core\\templates\\core\\dashboard.html",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\dashboard.html",
+              "RelativeToolTip": "core\\templates\\core\\dashboard.html",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-18T14:57:11.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "browse_resource.html",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\browse_resource.html",
+              "RelativeDocumentMoniker": "core\\templates\\core\\browse_resource.html",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\browse_resource.html",
+              "RelativeToolTip": "core\\templates\\core\\browse_resource.html",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAHAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-24T07:44:01.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "browse_course.html",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\browse_course.html",
+              "RelativeDocumentMoniker": "core\\templates\\core\\browse_course.html",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\browse_course.html",
+              "RelativeToolTip": "core\\templates\\core\\browse_course.html",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-12T10:57:51.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "borrowed_resource.html",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\borrowed_resource.html",
+              "RelativeDocumentMoniker": "core\\templates\\core\\borrowed_resource.html",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\borrowed_resource.html",
+              "RelativeToolTip": "core\\templates\\core\\borrowed_resource.html",
+              "ViewState": "AQIAAB8AAAAAAAAAAADwvxkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-24T10:51:09.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "borrow.html",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\borrow.html",
+              "RelativeDocumentMoniker": "core\\templates\\core\\borrow.html",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\borrow.html",
+              "RelativeToolTip": "core\\templates\\core\\borrow.html",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-27T15:45:51.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "add_resource.html",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\add_resource.html",
+              "RelativeDocumentMoniker": "core\\templates\\core\\add_resource.html",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templates\\core\\add_resource.html",
+              "RelativeToolTip": "core\\templates\\core\\add_resource.html",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-19T11:40:35.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "urls.py",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\urls.py",
+              "RelativeDocumentMoniker": "core\\urls.py",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\urls.py",
+              "RelativeToolTip": "core\\urls.py",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAzAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd\u002BUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAaXSURBVEhLvVZbbFRVFF33NQ/KtFNb7IPS0jZjIz4\u002BtImiAgkYNRgToxj0S2PUDxPjF0aJiQQ/jEYSE/nSYPiTKDFBiAYTIEXCo4KkUIUG0L4oj6YN03m1c\u002B8917XPvbetmOife2bP3ufMuWedtfc\u002B51z8rxIEgSHWcmynpb1tpWEo5IMZVIIyTASwYMA2DNqAluNkrBGwF9SAE4ilBmGfiPjaLvJ9BYxfDYY9D64e19a9Mrf37OEhz8zjW3cPfnJ/QDKootm00SRKpCZb4U7bp3pIw4elFBzfh618WvEVfVq2tZV24MP3TEzlgSeeLvaMjgWXTAEUZr5ZwKRbQqraCHsuC7\u002BaRLXqYLZqouyaKHBteer0nImbFRvXyg7GywmMlpIYKSYxXEpguCjqYLRoY6Rk4/psCsW5JagoiVcommFDd2Pu3TPbhm6WFPqmrzCsfyBtFZGxfNRS68gqQ621PKSg4HIRLsGVy4c9BUuYkk3C9xgZn2Nc1HBcRzKJzrSJGTWD556c6hkfUZc0YKprSe6R/vVDs8UM/pxUSF8aRzJfhFH1gTlPW0NbJoO\u002BVw7gzSoCct2\u002BKPsZRoPgpuSTfne7jbdfa0RnQwLTKo9N6yd6xof9ENDqcnItx9uHMFsHc7oZzolrMCYK8Ms\u002BVFkRwENQIUjF032igRcgIJi26jbL/rvvTuCTj1rR3ZTBpJrC8\u002BtGesb/9MMcSvXVmAYyLIY6Zw521dWTHt16FH3b\u002B3Dsk2PYt30fnl39LBIqoSdc0bQCuz/ejeGfhzF2fAw7P9yJlsYWsmXxRqAmPykk4QQOETQ39kQ/9YaJLJHrmSvDJYuKj5b6FszMzKDvbB8a6xqx9ZWt6GnrQXO2Gfu/2I/Heh/DwO8D\u002BPX8r1j94Gr03tert4pmSjUJ4vAj2yuEiwAt7rVl1AY7QNZ2YTJfwlBk4NIA3v/8fez6bhcyNRl0tXXh1RdeRXNDM3bu3olNr2/C5jc246U3XsLBQwfhc7HCkDWjJdzpMVwMyGXdSbBlrMh6u6qLRHIncteKu/DyUy\u002Bjd1Uv8oU8bk7dRK4jh6pbxZFjR1ApV1AsFnHh4gWUS2UdSgEThjFQCBpKBAg0Oz6WcWNnCWhVyZAhNci6dVkr1j6wFrOVWez4cgfOnjuL0aujsCyLlditcyaaSqR4snBmyaEUkwYUMPaJRmLrH7abTIWy6SIvayBDXYks8f5z/dj22TZUKhXcmr6l7Vdff4UXn3kRW97cgvaWdkxOTmLDug3Y880e7DuwLwQL8UIhYNzUDOUcyPKMzEiiuZdUJVSRQqGA4dFh3Lh\u002BQ4PJ6i9fuYzNr2/WrN97\u002Bz18uv1TdCzvwNjYGJTsSWE9n0MBW2A4H9I6nhJLqbZU6CxDSlv/YD3e\u002BuAtDSIT6VCJ7yqc7D\u002BJNRvXYNVDq3D/w/djzeNrcPr0aV0wihtfsySO1OpisiFDhq6Og2qopqxQ9pFUWpyP25WTibrcr8JqZGSER507379QNCIL4RSJQioMfdRQHY8o/wK2uF\u002BHTtoCJH2LwfgVjcy8zDNcysuqhmByrcj5GE8ahzKeXLejBWk/AtM5E7B4bIQSGUqYRw0obpqAaeYwQZaGgElYo4djYMWCmg\u002B1WAGRySNW88CxxNth0baIAAMkCZTgQ47c0tHKj39/HCcOnMDJH0/i1MFT6D/Uj/4j/cgszegto1lGBfIPMBF2SZUq7oBYQkC29bVCtejzPtaTDF4YxOBF6u\u002Bhnh88j8HfBuExGpqVgEZj/5ao/5KuTiM3NV6jBi5n1Re/tKp7NtaqVFtKJVuSKtGUUE6Do5x6R9m1trKWWspMm8pIGspwuDRL8/qH3vNASh0\u002Bc58au/6kOjVxr2rrdHLsDzPZ2WXkjv1cM3Sj4uDcrRT27prD1StS5ly4DlXIREU2ZBb7nED0NunMJbDlnQ50Lm/FhLqKTY9e5H3ohRfwyk4zd4iA\u002BWoCpVIawZzNyeUvuVZoxZVzMj6i6IYY4ZiF97jwD7FyNWWX1OKOxiyu\u002BaN4YTFgB0N68EjtENQSbos0HNPi\u002BWrBpMptJlam0ICWFAEf4/0pEytaiaucKDw2SNxiLUmc6ZtJGAnwZYpH4aMXNKAuGh2aOVpuC2WV4ZlUq8QHSnybK3Jyvt/wrQ7mDDELXECBdgYm2xZ9i1Z8UcPm8U81LGlP8xic5mtjGAER/WvbcJYvN1dKKw5h\u002BHfYjv0FWQjtgkR98xK3GQUWw8RYVb8I667/T4C/AHreDf6xtIcWAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-12T03:34:25.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "custom_filters.py",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templatetags\\custom_filters.py",
+              "RelativeDocumentMoniker": "core\\templatetags\\custom_filters.py",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\templatetags\\custom_filters.py",
+              "RelativeToolTip": "core\\templatetags\\custom_filters.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd\u002BUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAaXSURBVEhLvVZbbFRVFF33NQ/KtFNb7IPS0jZjIz4\u002BtImiAgkYNRgToxj0S2PUDxPjF0aJiQQ/jEYSE/nSYPiTKDFBiAYTIEXCo4KkUIUG0L4oj6YN03m1c\u002B8917XPvbetmOife2bP3ufMuWedtfc\u002B51z8rxIEgSHWcmynpb1tpWEo5IMZVIIyTASwYMA2DNqAluNkrBGwF9SAE4ilBmGfiPjaLvJ9BYxfDYY9D64e19a9Mrf37OEhz8zjW3cPfnJ/QDKootm00SRKpCZb4U7bp3pIw4elFBzfh618WvEVfVq2tZV24MP3TEzlgSeeLvaMjgWXTAEUZr5ZwKRbQqraCHsuC7\u002BaRLXqYLZqouyaKHBteer0nImbFRvXyg7GywmMlpIYKSYxXEpguCjqYLRoY6Rk4/psCsW5JagoiVcommFDd2Pu3TPbhm6WFPqmrzCsfyBtFZGxfNRS68gqQ621PKSg4HIRLsGVy4c9BUuYkk3C9xgZn2Nc1HBcRzKJzrSJGTWD556c6hkfUZc0YKprSe6R/vVDs8UM/pxUSF8aRzJfhFH1gTlPW0NbJoO\u002BVw7gzSoCct2\u002BKPsZRoPgpuSTfne7jbdfa0RnQwLTKo9N6yd6xof9ENDqcnItx9uHMFsHc7oZzolrMCYK8Ms\u002BVFkRwENQIUjF032igRcgIJi26jbL/rvvTuCTj1rR3ZTBpJrC8\u002BtGesb/9MMcSvXVmAYyLIY6Zw521dWTHt16FH3b\u002B3Dsk2PYt30fnl39LBIqoSdc0bQCuz/ejeGfhzF2fAw7P9yJlsYWsmXxRqAmPykk4QQOETQ39kQ/9YaJLJHrmSvDJYuKj5b6FszMzKDvbB8a6xqx9ZWt6GnrQXO2Gfu/2I/Heh/DwO8D\u002BPX8r1j94Gr03tert4pmSjUJ4vAj2yuEiwAt7rVl1AY7QNZ2YTJfwlBk4NIA3v/8fez6bhcyNRl0tXXh1RdeRXNDM3bu3olNr2/C5jc246U3XsLBQwfhc7HCkDWjJdzpMVwMyGXdSbBlrMh6u6qLRHIncteKu/DyUy\u002Bjd1Uv8oU8bk7dRK4jh6pbxZFjR1ApV1AsFnHh4gWUS2UdSgEThjFQCBpKBAg0Oz6WcWNnCWhVyZAhNci6dVkr1j6wFrOVWez4cgfOnjuL0aujsCyLlditcyaaSqR4snBmyaEUkwYUMPaJRmLrH7abTIWy6SIvayBDXYks8f5z/dj22TZUKhXcmr6l7Vdff4UXn3kRW97cgvaWdkxOTmLDug3Y880e7DuwLwQL8UIhYNzUDOUcyPKMzEiiuZdUJVSRQqGA4dFh3Lh\u002BQ4PJ6i9fuYzNr2/WrN97\u002Bz18uv1TdCzvwNjYGJTsSWE9n0MBW2A4H9I6nhJLqbZU6CxDSlv/YD3e\u002BuAtDSIT6VCJ7yqc7D\u002BJNRvXYNVDq3D/w/djzeNrcPr0aV0wihtfsySO1OpisiFDhq6Og2qopqxQ9pFUWpyP25WTibrcr8JqZGSER507379QNCIL4RSJQioMfdRQHY8o/wK2uF\u002BHTtoCJH2LwfgVjcy8zDNcysuqhmByrcj5GE8ahzKeXLejBWk/AtM5E7B4bIQSGUqYRw0obpqAaeYwQZaGgElYo4djYMWCmg\u002B1WAGRySNW88CxxNth0baIAAMkCZTgQ47c0tHKj39/HCcOnMDJH0/i1MFT6D/Uj/4j/cgszegto1lGBfIPMBF2SZUq7oBYQkC29bVCtejzPtaTDF4YxOBF6u\u002Bhnh88j8HfBuExGpqVgEZj/5ao/5KuTiM3NV6jBi5n1Re/tKp7NtaqVFtKJVuSKtGUUE6Do5x6R9m1trKWWspMm8pIGspwuDRL8/qH3vNASh0\u002Bc58au/6kOjVxr2rrdHLsDzPZ2WXkjv1cM3Sj4uDcrRT27prD1StS5ly4DlXIREU2ZBb7nED0NunMJbDlnQ50Lm/FhLqKTY9e5H3ohRfwyk4zd4iA\u002BWoCpVIawZzNyeUvuVZoxZVzMj6i6IYY4ZiF97jwD7FyNWWX1OKOxiyu\u002BaN4YTFgB0N68EjtENQSbos0HNPi\u002BWrBpMptJlam0ICWFAEf4/0pEytaiaucKDw2SNxiLUmc6ZtJGAnwZYpH4aMXNKAuGh2aOVpuC2WV4ZlUq8QHSnybK3Jyvt/wrQ7mDDELXECBdgYm2xZ9i1Z8UcPm8U81LGlP8xic5mtjGAER/WvbcJYvN1dKKw5h\u002BHfYjv0FWQjtgkR98xK3GQUWw8RYVb8I667/T4C/AHreDf6xtIcWAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-25T18:12:33.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "forms.py",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\forms.py",
+              "RelativeDocumentMoniker": "core\\forms.py",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\forms.py",
+              "RelativeToolTip": "core\\forms.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd\u002BUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAaXSURBVEhLvVZbbFRVFF33NQ/KtFNb7IPS0jZjIz4\u002BtImiAgkYNRgToxj0S2PUDxPjF0aJiQQ/jEYSE/nSYPiTKDFBiAYTIEXCo4KkUIUG0L4oj6YN03m1c\u002B8917XPvbetmOife2bP3ufMuWedtfc\u002B51z8rxIEgSHWcmynpb1tpWEo5IMZVIIyTASwYMA2DNqAluNkrBGwF9SAE4ilBmGfiPjaLvJ9BYxfDYY9D64e19a9Mrf37OEhz8zjW3cPfnJ/QDKootm00SRKpCZb4U7bp3pIw4elFBzfh618WvEVfVq2tZV24MP3TEzlgSeeLvaMjgWXTAEUZr5ZwKRbQqraCHsuC7\u002BaRLXqYLZqouyaKHBteer0nImbFRvXyg7GywmMlpIYKSYxXEpguCjqYLRoY6Rk4/psCsW5JagoiVcommFDd2Pu3TPbhm6WFPqmrzCsfyBtFZGxfNRS68gqQ621PKSg4HIRLsGVy4c9BUuYkk3C9xgZn2Nc1HBcRzKJzrSJGTWD556c6hkfUZc0YKprSe6R/vVDs8UM/pxUSF8aRzJfhFH1gTlPW0NbJoO\u002BVw7gzSoCct2\u002BKPsZRoPgpuSTfne7jbdfa0RnQwLTKo9N6yd6xof9ENDqcnItx9uHMFsHc7oZzolrMCYK8Ms\u002BVFkRwENQIUjF032igRcgIJi26jbL/rvvTuCTj1rR3ZTBpJrC8\u002BtGesb/9MMcSvXVmAYyLIY6Zw521dWTHt16FH3b\u002B3Dsk2PYt30fnl39LBIqoSdc0bQCuz/ejeGfhzF2fAw7P9yJlsYWsmXxRqAmPykk4QQOETQ39kQ/9YaJLJHrmSvDJYuKj5b6FszMzKDvbB8a6xqx9ZWt6GnrQXO2Gfu/2I/Heh/DwO8D\u002BPX8r1j94Gr03tert4pmSjUJ4vAj2yuEiwAt7rVl1AY7QNZ2YTJfwlBk4NIA3v/8fez6bhcyNRl0tXXh1RdeRXNDM3bu3olNr2/C5jc246U3XsLBQwfhc7HCkDWjJdzpMVwMyGXdSbBlrMh6u6qLRHIncteKu/DyUy\u002Bjd1Uv8oU8bk7dRK4jh6pbxZFjR1ApV1AsFnHh4gWUS2UdSgEThjFQCBpKBAg0Oz6WcWNnCWhVyZAhNci6dVkr1j6wFrOVWez4cgfOnjuL0aujsCyLlditcyaaSqR4snBmyaEUkwYUMPaJRmLrH7abTIWy6SIvayBDXYks8f5z/dj22TZUKhXcmr6l7Vdff4UXn3kRW97cgvaWdkxOTmLDug3Y880e7DuwLwQL8UIhYNzUDOUcyPKMzEiiuZdUJVSRQqGA4dFh3Lh\u002BQ4PJ6i9fuYzNr2/WrN97\u002Bz18uv1TdCzvwNjYGJTsSWE9n0MBW2A4H9I6nhJLqbZU6CxDSlv/YD3e\u002BuAtDSIT6VCJ7yqc7D\u002BJNRvXYNVDq3D/w/djzeNrcPr0aV0wihtfsySO1OpisiFDhq6Og2qopqxQ9pFUWpyP25WTibrcr8JqZGSER507379QNCIL4RSJQioMfdRQHY8o/wK2uF\u002BHTtoCJH2LwfgVjcy8zDNcysuqhmByrcj5GE8ahzKeXLejBWk/AtM5E7B4bIQSGUqYRw0obpqAaeYwQZaGgElYo4djYMWCmg\u002B1WAGRySNW88CxxNth0baIAAMkCZTgQ47c0tHKj39/HCcOnMDJH0/i1MFT6D/Uj/4j/cgszegto1lGBfIPMBF2SZUq7oBYQkC29bVCtejzPtaTDF4YxOBF6u\u002Bhnh88j8HfBuExGpqVgEZj/5ao/5KuTiM3NV6jBi5n1Re/tKp7NtaqVFtKJVuSKtGUUE6Do5x6R9m1trKWWspMm8pIGspwuDRL8/qH3vNASh0\u002Bc58au/6kOjVxr2rrdHLsDzPZ2WXkjv1cM3Sj4uDcrRT27prD1StS5ly4DlXIREU2ZBb7nED0NunMJbDlnQ50Lm/FhLqKTY9e5H3ohRfwyk4zd4iA\u002BWoCpVIawZzNyeUvuVZoxZVzMj6i6IYY4ZiF97jwD7FyNWWX1OKOxiyu\u002BaN4YTFgB0N68EjtENQSbos0HNPi\u002BWrBpMptJlam0ICWFAEf4/0pEytaiaucKDw2SNxiLUmc6ZtJGAnwZYpH4aMXNKAuGh2aOVpuC2WV4ZlUq8QHSnybK3Jyvt/wrQ7mDDELXECBdgYm2xZ9i1Z8UcPm8U81LGlP8xic5mtjGAER/WvbcJYvN1dKKw5h\u002BHfYjv0FWQjtgkR98xK3GQUWw8RYVb8I667/T4C/AHreDf6xtIcWAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-19T11:51:53.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "views.py",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\views.py",
+              "RelativeDocumentMoniker": "core\\views.py",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\views.py",
+              "RelativeToolTip": "core\\views.py",
+              "ViewState": "AQIAAKQBAAAAAAAAAAAAAK8BAAA9AAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd\u002BUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAaXSURBVEhLvVZbbFRVFF33NQ/KtFNb7IPS0jZjIz4\u002BtImiAgkYNRgToxj0S2PUDxPjF0aJiQQ/jEYSE/nSYPiTKDFBiAYTIEXCo4KkUIUG0L4oj6YN03m1c\u002B8917XPvbetmOife2bP3ufMuWedtfc\u002B51z8rxIEgSHWcmynpb1tpWEo5IMZVIIyTASwYMA2DNqAluNkrBGwF9SAE4ilBmGfiPjaLvJ9BYxfDYY9D64e19a9Mrf37OEhz8zjW3cPfnJ/QDKootm00SRKpCZb4U7bp3pIw4elFBzfh618WvEVfVq2tZV24MP3TEzlgSeeLvaMjgWXTAEUZr5ZwKRbQqraCHsuC7\u002BaRLXqYLZqouyaKHBteer0nImbFRvXyg7GywmMlpIYKSYxXEpguCjqYLRoY6Rk4/psCsW5JagoiVcommFDd2Pu3TPbhm6WFPqmrzCsfyBtFZGxfNRS68gqQ621PKSg4HIRLsGVy4c9BUuYkk3C9xgZn2Nc1HBcRzKJzrSJGTWD556c6hkfUZc0YKprSe6R/vVDs8UM/pxUSF8aRzJfhFH1gTlPW0NbJoO\u002BVw7gzSoCct2\u002BKPsZRoPgpuSTfne7jbdfa0RnQwLTKo9N6yd6xof9ENDqcnItx9uHMFsHc7oZzolrMCYK8Ms\u002BVFkRwENQIUjF032igRcgIJi26jbL/rvvTuCTj1rR3ZTBpJrC8\u002BtGesb/9MMcSvXVmAYyLIY6Zw521dWTHt16FH3b\u002B3Dsk2PYt30fnl39LBIqoSdc0bQCuz/ejeGfhzF2fAw7P9yJlsYWsmXxRqAmPykk4QQOETQ39kQ/9YaJLJHrmSvDJYuKj5b6FszMzKDvbB8a6xqx9ZWt6GnrQXO2Gfu/2I/Heh/DwO8D\u002BPX8r1j94Gr03tert4pmSjUJ4vAj2yuEiwAt7rVl1AY7QNZ2YTJfwlBk4NIA3v/8fez6bhcyNRl0tXXh1RdeRXNDM3bu3olNr2/C5jc246U3XsLBQwfhc7HCkDWjJdzpMVwMyGXdSbBlrMh6u6qLRHIncteKu/DyUy\u002Bjd1Uv8oU8bk7dRK4jh6pbxZFjR1ApV1AsFnHh4gWUS2UdSgEThjFQCBpKBAg0Oz6WcWNnCWhVyZAhNci6dVkr1j6wFrOVWez4cgfOnjuL0aujsCyLlditcyaaSqR4snBmyaEUkwYUMPaJRmLrH7abTIWy6SIvayBDXYks8f5z/dj22TZUKhXcmr6l7Vdff4UXn3kRW97cgvaWdkxOTmLDug3Y880e7DuwLwQL8UIhYNzUDOUcyPKMzEiiuZdUJVSRQqGA4dFh3Lh\u002BQ4PJ6i9fuYzNr2/WrN97\u002Bz18uv1TdCzvwNjYGJTsSWE9n0MBW2A4H9I6nhJLqbZU6CxDSlv/YD3e\u002BuAtDSIT6VCJ7yqc7D\u002BJNRvXYNVDq3D/w/djzeNrcPr0aV0wihtfsySO1OpisiFDhq6Og2qopqxQ9pFUWpyP25WTibrcr8JqZGSER507379QNCIL4RSJQioMfdRQHY8o/wK2uF\u002BHTtoCJH2LwfgVjcy8zDNcysuqhmByrcj5GE8ahzKeXLejBWk/AtM5E7B4bIQSGUqYRw0obpqAaeYwQZaGgElYo4djYMWCmg\u002B1WAGRySNW88CxxNth0baIAAMkCZTgQ47c0tHKj39/HCcOnMDJH0/i1MFT6D/Uj/4j/cgszegto1lGBfIPMBF2SZUq7oBYQkC29bVCtejzPtaTDF4YxOBF6u\u002Bhnh88j8HfBuExGpqVgEZj/5ao/5KuTiM3NV6jBi5n1Re/tKp7NtaqVFtKJVuSKtGUUE6Do5x6R9m1trKWWspMm8pIGspwuDRL8/qH3vNASh0\u002Bc58au/6kOjVxr2rrdHLsDzPZ2WXkjv1cM3Sj4uDcrRT27prD1StS5ly4DlXIREU2ZBb7nED0NunMJbDlnQ50Lm/FhLqKTY9e5H3ohRfwyk4zd4iA\u002BWoCpVIawZzNyeUvuVZoxZVzMj6i6IYY4ZiF97jwD7FyNWWX1OKOxiyu\u002BaN4YTFgB0N68EjtENQSbos0HNPi\u002BWrBpMptJlam0ICWFAEf4/0pEytaiaucKDw2SNxiLUmc6ZtJGAnwZYpH4aMXNKAuGh2aOVpuC2WV4ZlUq8QHSnybK3Jyvt/wrQ7mDDELXECBdgYm2xZ9i1Z8UcPm8U81LGlP8xic5mtjGAER/WvbcJYvN1dKKw5h\u002BHfYjv0FWQjtgkR98xK3GQUWw8RYVb8I667/T4C/AHreDf6xtIcWAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-12T10:56:25.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "settings.py",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\resource_sharing\\settings.py",
+              "RelativeDocumentMoniker": "resource_sharing\\settings.py",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\resource_sharing\\settings.py",
+              "RelativeToolTip": "resource_sharing\\settings.py",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAuwFYAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd\u002BUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAaXSURBVEhLvVZbbFRVFF33NQ/KtFNb7IPS0jZjIz4\u002BtImiAgkYNRgToxj0S2PUDxPjF0aJiQQ/jEYSE/nSYPiTKDFBiAYTIEXCo4KkUIUG0L4oj6YN03m1c\u002B8917XPvbetmOife2bP3ufMuWedtfc\u002B51z8rxIEgSHWcmynpb1tpWEo5IMZVIIyTASwYMA2DNqAluNkrBGwF9SAE4ilBmGfiPjaLvJ9BYxfDYY9D64e19a9Mrf37OEhz8zjW3cPfnJ/QDKootm00SRKpCZb4U7bp3pIw4elFBzfh618WvEVfVq2tZV24MP3TEzlgSeeLvaMjgWXTAEUZr5ZwKRbQqraCHsuC7\u002BaRLXqYLZqouyaKHBteer0nImbFRvXyg7GywmMlpIYKSYxXEpguCjqYLRoY6Rk4/psCsW5JagoiVcommFDd2Pu3TPbhm6WFPqmrzCsfyBtFZGxfNRS68gqQ621PKSg4HIRLsGVy4c9BUuYkk3C9xgZn2Nc1HBcRzKJzrSJGTWD556c6hkfUZc0YKprSe6R/vVDs8UM/pxUSF8aRzJfhFH1gTlPW0NbJoO\u002BVw7gzSoCct2\u002BKPsZRoPgpuSTfne7jbdfa0RnQwLTKo9N6yd6xof9ENDqcnItx9uHMFsHc7oZzolrMCYK8Ms\u002BVFkRwENQIUjF032igRcgIJi26jbL/rvvTuCTj1rR3ZTBpJrC8\u002BtGesb/9MMcSvXVmAYyLIY6Zw521dWTHt16FH3b\u002B3Dsk2PYt30fnl39LBIqoSdc0bQCuz/ejeGfhzF2fAw7P9yJlsYWsmXxRqAmPykk4QQOETQ39kQ/9YaJLJHrmSvDJYuKj5b6FszMzKDvbB8a6xqx9ZWt6GnrQXO2Gfu/2I/Heh/DwO8D\u002BPX8r1j94Gr03tert4pmSjUJ4vAj2yuEiwAt7rVl1AY7QNZ2YTJfwlBk4NIA3v/8fez6bhcyNRl0tXXh1RdeRXNDM3bu3olNr2/C5jc246U3XsLBQwfhc7HCkDWjJdzpMVwMyGXdSbBlrMh6u6qLRHIncteKu/DyUy\u002Bjd1Uv8oU8bk7dRK4jh6pbxZFjR1ApV1AsFnHh4gWUS2UdSgEThjFQCBpKBAg0Oz6WcWNnCWhVyZAhNci6dVkr1j6wFrOVWez4cgfOnjuL0aujsCyLlditcyaaSqR4snBmyaEUkwYUMPaJRmLrH7abTIWy6SIvayBDXYks8f5z/dj22TZUKhXcmr6l7Vdff4UXn3kRW97cgvaWdkxOTmLDug3Y880e7DuwLwQL8UIhYNzUDOUcyPKMzEiiuZdUJVSRQqGA4dFh3Lh\u002BQ4PJ6i9fuYzNr2/WrN97\u002Bz18uv1TdCzvwNjYGJTsSWE9n0MBW2A4H9I6nhJLqbZU6CxDSlv/YD3e\u002BuAtDSIT6VCJ7yqc7D\u002BJNRvXYNVDq3D/w/djzeNrcPr0aV0wihtfsySO1OpisiFDhq6Og2qopqxQ9pFUWpyP25WTibrcr8JqZGSER507379QNCIL4RSJQioMfdRQHY8o/wK2uF\u002BHTtoCJH2LwfgVjcy8zDNcysuqhmByrcj5GE8ahzKeXLejBWk/AtM5E7B4bIQSGUqYRw0obpqAaeYwQZaGgElYo4djYMWCmg\u002B1WAGRySNW88CxxNth0baIAAMkCZTgQ47c0tHKj39/HCcOnMDJH0/i1MFT6D/Uj/4j/cgszegto1lGBfIPMBF2SZUq7oBYQkC29bVCtejzPtaTDF4YxOBF6u\u002Bhnh88j8HfBuExGpqVgEZj/5ao/5KuTiM3NV6jBi5n1Re/tKp7NtaqVFtKJVuSKtGUUE6Do5x6R9m1trKWWspMm8pIGspwuDRL8/qH3vNASh0\u002Bc58au/6kOjVxr2rrdHLsDzPZ2WXkjv1cM3Sj4uDcrRT27prD1StS5ly4DlXIREU2ZBb7nED0NunMJbDlnQ50Lm/FhLqKTY9e5H3ohRfwyk4zd4iA\u002BWoCpVIawZzNyeUvuVZoxZVzMj6i6IYY4ZiF97jwD7FyNWWX1OKOxiyu\u002BaN4YTFgB0N68EjtENQSbos0HNPi\u002BWrBpMptJlam0ICWFAEf4/0pEytaiaucKDw2SNxiLUmc6ZtJGAnwZYpH4aMXNKAuGh2aOVpuC2WV4ZlUq8QHSnybK3Jyvt/wrQ7mDDELXECBdgYm2xZ9i1Z8UcPm8U81LGlP8xic5mtjGAER/WvbcJYvN1dKKw5h\u002BHfYjv0FWQjtgkR98xK3GQUWw8RYVb8I667/T4C/AHreDf6xtIcWAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-18T15:57:43.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "models.py",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\models.py",
+              "RelativeDocumentMoniker": "core\\models.py",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\models.py",
+              "RelativeToolTip": "core\\models.py",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAAAJwAAAA1AAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd\u002BUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAaXSURBVEhLvVZbbFRVFF33NQ/KtFNb7IPS0jZjIz4\u002BtImiAgkYNRgToxj0S2PUDxPjF0aJiQQ/jEYSE/nSYPiTKDFBiAYTIEXCo4KkUIUG0L4oj6YN03m1c\u002B8917XPvbetmOife2bP3ufMuWedtfc\u002B51z8rxIEgSHWcmynpb1tpWEo5IMZVIIyTASwYMA2DNqAluNkrBGwF9SAE4ilBmGfiPjaLvJ9BYxfDYY9D64e19a9Mrf37OEhz8zjW3cPfnJ/QDKootm00SRKpCZb4U7bp3pIw4elFBzfh618WvEVfVq2tZV24MP3TEzlgSeeLvaMjgWXTAEUZr5ZwKRbQqraCHsuC7\u002BaRLXqYLZqouyaKHBteer0nImbFRvXyg7GywmMlpIYKSYxXEpguCjqYLRoY6Rk4/psCsW5JagoiVcommFDd2Pu3TPbhm6WFPqmrzCsfyBtFZGxfNRS68gqQ621PKSg4HIRLsGVy4c9BUuYkk3C9xgZn2Nc1HBcRzKJzrSJGTWD556c6hkfUZc0YKprSe6R/vVDs8UM/pxUSF8aRzJfhFH1gTlPW0NbJoO\u002BVw7gzSoCct2\u002BKPsZRoPgpuSTfne7jbdfa0RnQwLTKo9N6yd6xof9ENDqcnItx9uHMFsHc7oZzolrMCYK8Ms\u002BVFkRwENQIUjF032igRcgIJi26jbL/rvvTuCTj1rR3ZTBpJrC8\u002BtGesb/9MMcSvXVmAYyLIY6Zw521dWTHt16FH3b\u002B3Dsk2PYt30fnl39LBIqoSdc0bQCuz/ejeGfhzF2fAw7P9yJlsYWsmXxRqAmPykk4QQOETQ39kQ/9YaJLJHrmSvDJYuKj5b6FszMzKDvbB8a6xqx9ZWt6GnrQXO2Gfu/2I/Heh/DwO8D\u002BPX8r1j94Gr03tert4pmSjUJ4vAj2yuEiwAt7rVl1AY7QNZ2YTJfwlBk4NIA3v/8fez6bhcyNRl0tXXh1RdeRXNDM3bu3olNr2/C5jc246U3XsLBQwfhc7HCkDWjJdzpMVwMyGXdSbBlrMh6u6qLRHIncteKu/DyUy\u002Bjd1Uv8oU8bk7dRK4jh6pbxZFjR1ApV1AsFnHh4gWUS2UdSgEThjFQCBpKBAg0Oz6WcWNnCWhVyZAhNci6dVkr1j6wFrOVWez4cgfOnjuL0aujsCyLlditcyaaSqR4snBmyaEUkwYUMPaJRmLrH7abTIWy6SIvayBDXYks8f5z/dj22TZUKhXcmr6l7Vdff4UXn3kRW97cgvaWdkxOTmLDug3Y880e7DuwLwQL8UIhYNzUDOUcyPKMzEiiuZdUJVSRQqGA4dFh3Lh\u002BQ4PJ6i9fuYzNr2/WrN97\u002Bz18uv1TdCzvwNjYGJTsSWE9n0MBW2A4H9I6nhJLqbZU6CxDSlv/YD3e\u002BuAtDSIT6VCJ7yqc7D\u002BJNRvXYNVDq3D/w/djzeNrcPr0aV0wihtfsySO1OpisiFDhq6Og2qopqxQ9pFUWpyP25WTibrcr8JqZGSER507379QNCIL4RSJQioMfdRQHY8o/wK2uF\u002BHTtoCJH2LwfgVjcy8zDNcysuqhmByrcj5GE8ahzKeXLejBWk/AtM5E7B4bIQSGUqYRw0obpqAaeYwQZaGgElYo4djYMWCmg\u002B1WAGRySNW88CxxNth0baIAAMkCZTgQ47c0tHKj39/HCcOnMDJH0/i1MFT6D/Uj/4j/cgszegto1lGBfIPMBF2SZUq7oBYQkC29bVCtejzPtaTDF4YxOBF6u\u002Bhnh88j8HfBuExGpqVgEZj/5ao/5KuTiM3NV6jBi5n1Re/tKp7NtaqVFtKJVuSKtGUUE6Do5x6R9m1trKWWspMm8pIGspwuDRL8/qH3vNASh0\u002Bc58au/6kOjVxr2rrdHLsDzPZ2WXkjv1cM3Sj4uDcrRT27prD1StS5ly4DlXIREU2ZBb7nED0NunMJbDlnQ50Lm/FhLqKTY9e5H3ohRfwyk4zd4iA\u002BWoCpVIawZzNyeUvuVZoxZVzMj6i6IYY4ZiF97jwD7FyNWWX1OKOxiyu\u002BaN4YTFgB0N68EjtENQSbos0HNPi\u002BWrBpMptJlam0ICWFAEf4/0pEytaiaucKDw2SNxiLUmc6ZtJGAnwZYpH4aMXNKAuGh2aOVpuC2WV4ZlUq8QHSnybK3Jyvt/wrQ7mDDELXECBdgYm2xZ9i1Z8UcPm8U81LGlP8xic5mtjGAER/WvbcJYvN1dKKw5h\u002BHfYjv0FWQjtgkR98xK3GQUWw8RYVb8I667/T4C/AHreDf6xtIcWAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-12T03:06:58.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "admin.py",
+              "DocumentMoniker": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\admin.py",
+              "RelativeDocumentMoniker": "core\\admin.py",
+              "ToolTip": "C:\\Users\\Unaiza\\OneDrive\\Desktop\\resource_sharing_project\\resource_sharing\\core\\admin.py",
+              "RelativeToolTip": "core\\admin.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAABoAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd\u002BUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAaXSURBVEhLvVZbbFRVFF33NQ/KtFNb7IPS0jZjIz4\u002BtImiAgkYNRgToxj0S2PUDxPjF0aJiQQ/jEYSE/nSYPiTKDFBiAYTIEXCo4KkUIUG0L4oj6YN03m1c\u002B8917XPvbetmOife2bP3ufMuWedtfc\u002B51z8rxIEgSHWcmynpb1tpWEo5IMZVIIyTASwYMA2DNqAluNkrBGwF9SAE4ilBmGfiPjaLvJ9BYxfDYY9D64e19a9Mrf37OEhz8zjW3cPfnJ/QDKootm00SRKpCZb4U7bp3pIw4elFBzfh618WvEVfVq2tZV24MP3TEzlgSeeLvaMjgWXTAEUZr5ZwKRbQqraCHsuC7\u002BaRLXqYLZqouyaKHBteer0nImbFRvXyg7GywmMlpIYKSYxXEpguCjqYLRoY6Rk4/psCsW5JagoiVcommFDd2Pu3TPbhm6WFPqmrzCsfyBtFZGxfNRS68gqQ621PKSg4HIRLsGVy4c9BUuYkk3C9xgZn2Nc1HBcRzKJzrSJGTWD556c6hkfUZc0YKprSe6R/vVDs8UM/pxUSF8aRzJfhFH1gTlPW0NbJoO\u002BVw7gzSoCct2\u002BKPsZRoPgpuSTfne7jbdfa0RnQwLTKo9N6yd6xof9ENDqcnItx9uHMFsHc7oZzolrMCYK8Ms\u002BVFkRwENQIUjF032igRcgIJi26jbL/rvvTuCTj1rR3ZTBpJrC8\u002BtGesb/9MMcSvXVmAYyLIY6Zw521dWTHt16FH3b\u002B3Dsk2PYt30fnl39LBIqoSdc0bQCuz/ejeGfhzF2fAw7P9yJlsYWsmXxRqAmPykk4QQOETQ39kQ/9YaJLJHrmSvDJYuKj5b6FszMzKDvbB8a6xqx9ZWt6GnrQXO2Gfu/2I/Heh/DwO8D\u002BPX8r1j94Gr03tert4pmSjUJ4vAj2yuEiwAt7rVl1AY7QNZ2YTJfwlBk4NIA3v/8fez6bhcyNRl0tXXh1RdeRXNDM3bu3olNr2/C5jc246U3XsLBQwfhc7HCkDWjJdzpMVwMyGXdSbBlrMh6u6qLRHIncteKu/DyUy\u002Bjd1Uv8oU8bk7dRK4jh6pbxZFjR1ApV1AsFnHh4gWUS2UdSgEThjFQCBpKBAg0Oz6WcWNnCWhVyZAhNci6dVkr1j6wFrOVWez4cgfOnjuL0aujsCyLlditcyaaSqR4snBmyaEUkwYUMPaJRmLrH7abTIWy6SIvayBDXYks8f5z/dj22TZUKhXcmr6l7Vdff4UXn3kRW97cgvaWdkxOTmLDug3Y880e7DuwLwQL8UIhYNzUDOUcyPKMzEiiuZdUJVSRQqGA4dFh3Lh\u002BQ4PJ6i9fuYzNr2/WrN97\u002Bz18uv1TdCzvwNjYGJTsSWE9n0MBW2A4H9I6nhJLqbZU6CxDSlv/YD3e\u002BuAtDSIT6VCJ7yqc7D\u002BJNRvXYNVDq3D/w/djzeNrcPr0aV0wihtfsySO1OpisiFDhq6Og2qopqxQ9pFUWpyP25WTibrcr8JqZGSER507379QNCIL4RSJQioMfdRQHY8o/wK2uF\u002BHTtoCJH2LwfgVjcy8zDNcysuqhmByrcj5GE8ahzKeXLejBWk/AtM5E7B4bIQSGUqYRw0obpqAaeYwQZaGgElYo4djYMWCmg\u002B1WAGRySNW88CxxNth0baIAAMkCZTgQ47c0tHKj39/HCcOnMDJH0/i1MFT6D/Uj/4j/cgszegto1lGBfIPMBF2SZUq7oBYQkC29bVCtejzPtaTDF4YxOBF6u\u002Bhnh88j8HfBuExGpqVgEZj/5ao/5KuTiM3NV6jBi5n1Re/tKp7NtaqVFtKJVuSKtGUUE6Do5x6R9m1trKWWspMm8pIGspwuDRL8/qH3vNASh0\u002Bc58au/6kOjVxr2rrdHLsDzPZ2WXkjv1cM3Sj4uDcrRT27prD1StS5ly4DlXIREU2ZBb7nED0NunMJbDlnQ50Lm/FhLqKTY9e5H3ohRfwyk4zd4iA\u002BWoCpVIawZzNyeUvuVZoxZVzMj6i6IYY4ZiF97jwD7FyNWWX1OKOxiyu\u002BaN4YTFgB0N68EjtENQSbos0HNPi\u002BWrBpMptJlam0ICWFAEf4/0pEytaiaucKDw2SNxiLUmc6ZtJGAnwZYpH4aMXNKAuGh2aOVpuC2WV4ZlUq8QHSnybK3Jyvt/wrQ7mDDELXECBdgYm2xZ9i1Z8UcPm8U81LGlP8xic5mtjGAER/WvbcJYvN1dKKw5h\u002BHfYjv0FWQjtgkR98xK3GQUWw8RYVb8I667/T4C/AHreDf6xtIcWAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-11-12T03:14:15.989Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

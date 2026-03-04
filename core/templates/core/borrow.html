@@ -1,0 +1,74 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/borrow.css' %}">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>COURSE RESOURCE</h1>
+                <h2>SHARING PLATFORM</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="{% url 'dashboard' %}">Dashboard</a></li>
+                <li><a href="{% url 'logged_browse_courses' %}">Browse Courses</a></li>
+                <li><a href="{% url 'browse_resource' %}">Browse Resources</a></li>
+                <li><a href="{% url 'logout' %}">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="resource-feed">
+            <div class="resource-card">
+                <div class="card-header">
+                    <h3>{{ resource.resourcename }}</h3>
+                    <p class="meta">
+                        <strong>Uploaded by</strong>
+                        <span class="username">{{ resource.lender.username }}</span>
+                        <span class="date">on {{ resource.uploaded_on|date:"F j, Y, g:i a" }}</span>
+                    </p>
+                </div>
+                <div class="card-body">
+                    {% if resource.availability and resource.lender != user %}
+                    <form method="POST" action="{% url 'borrow_resource' resource.resourceid %}" class="borrow-form">
+                        {% csrf_token %}
+                        <label for="return_date" style="font-weight: bold;">Select Return Date:</label>
+                        <input type="date" id="return_date" name="return_date" required style="margin-right:550px;">
+                        <button type="submit"
+                                style="padding: 10px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: normal; font-size: 14px; transition: background-color 0.3s ease; width: 184px; text-decoration: none; align-self: flex-end;">
+                            Confirm Borrowing
+                        </button>
+                    </form>
+
+                    <script>
+                        // Set the minimum selectable date to today
+                        const today = new Date().toISOString().split('T')[0]; // Get today's date in YYYY-MM-DD format
+                        document.getElementById('return_date').setAttribute('min', today);
+                    </script>
+
+                    {% elif resource.lender == user %}
+                    <p>You cannot borrow your own resource.</p>
+                    {% else %}
+                    <p class="unavailable">This resource is currently unavailable for borrowing.</p>
+                    {% endif %}
+
+                    {% if messages %}
+                    <div class="messages">
+                        {% for message in messages %}
+                        <div class="alert {{ message.tags }}">{{ message }}</div>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

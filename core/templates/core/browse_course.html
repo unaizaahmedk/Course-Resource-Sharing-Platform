@@ -1,0 +1,60 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Courses</title>
+    <link rel="stylesheet" href="{% static 'css/browse_styles.css' %}">
+</head>
+<body class="light-mode">
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>COURSE RESOURCE</h1>
+                <h2>SHARING PLATFORM</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'browse_courses' %}">Browse Courses</a></li>
+                <li><a href="{% url 'login' %}">Login</a></li>
+                <li><a href="{% url 'signup' %}">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="browse-courses">
+        <div class="container">
+            <h2 style="margin-bottom: 30px; text-align: center; color: black;">Available Courses</h2>
+            <div class="courses-list">
+                {% for course in courses %}
+                <div class="course-card">
+                    <h2>{{ course.coursename }}</h2>
+                    <p>Course Code: {{ course.coursecode }}</p>
+                </div>
+                {% empty %}
+                <p>No courses available at the moment. Check back later!</p>
+                {% endfor %}
+            </div>
+            <div class="pagination">
+                <span class="step-links">
+                    {% if courses.has_previous %}
+                    <a href="?page=1">&laquo; First</a>
+                    <a href="?page={{ courses.previous_page_number }}">Previous</a>
+                    {% endif %}
+
+                    <span class="current">
+                        Page {{ courses.number }} of {{ courses.paginator.num_pages }}
+                    </span>
+
+                    {% if courses.has_next %}
+                    <a href="?page={{ courses.next_page_number }}">Next</a>
+                    <a href="?page={{ courses.paginator.num_pages }}">Last &raquo;</a>
+                    {% endif %}
+                </span>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

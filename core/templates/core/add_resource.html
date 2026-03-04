@@ -1,0 +1,106 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Resource</title>
+    <link rel="stylesheet" href="{% static 'css/add_res.css' %}">
+</head>
+<body class="light-mode">
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <!-- Logo Section -->
+            <div class="logo">
+                <h1>COURSE RESOURCE</h1>
+                <h2>SHARING PLATFORM</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="{% url 'dashboard' %}">Dashboard</a></li>
+                <li><a href="{% url 'logged_browse_courses' %}">Browse Courses</a></li>
+                <li><a href="{% url 'browse_resource' %}">Browse Resources</a></li>
+                <li><a href="{% url 'logout' %}">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="add-resource-section">
+        <div class="form-container">
+            <h1 style="color: #007BFF;">Add Resource</h1>
+            {% if messages %}
+            {% for message in messages %}
+            <p class="message {{ message.tags }}">{{ message }}</p>
+            {% endfor %}
+            {% endif %}
+            <form method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+
+                <label for="resourcename">Resource Name:</label>
+                <input type="text" id="resourcename" name="resourcename" placeholder="Enter resource name" required>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" placeholder="Provide a brief description" required></textarea>
+
+                <label for="course">Course:</label>
+                <select id="course" name="course" required>
+                    {% for course in courses %}
+                    <option value="{{ course.pk }}">{{ course.coursename }}</option>
+                    {% endfor %}
+                </select>
+
+                <label for="category">Category:</label>
+                <select id="category" name="category" required onchange="checkCategory(this)">
+                    {% for category in categories %}
+                    <option value="{{ category.pk }}" data-public="{{ category.is_public }}">{{ category.categoryname }}</option>
+                    {% endfor %}
+                </select>
+
+                <!-- Lender is the currently logged-in user -->
+                <input type="hidden" name="lender" value="{{ user.pk }}">
+
+                <!-- File Upload Section -->
+                <div id="file-upload" style="display: none;">
+                    <label for="file">Upload File:</label>
+                    <input type="file" id="file" name="file">
+                    <small id="file-helper" class="helper-text">Please upload a file for publicly available resources.</small>
+                </div>
+
+                <!-- Image Upload Section -->
+                <div id="image-upload" style="display: block;">
+                    <label for="images" id="image-label">Upload Image:</label>
+                    <input type="file" id="images" name="images" multiple onchange="updateImageLabel()">
+                    <small id="image-helper" class="helper-text">Please upload images for borrowed resources.</small>
+                </div>
+
+                <button type="submit" class="custom-button">Add Resource</button>
+            </form>
+        </div>
+    </section>
+
+    <script>
+        function checkCategory(select) {
+            const isPublic = select.options[select.selectedIndex].getAttribute('data-public') === 'True';
+            const fileUpload = document.getElementById('file-upload');
+            const imageUpload = document.getElementById('image-upload');
+            const fileHelper = document.getElementById('file-helper');
+            const imageHelper = document.getElementById('image-helper');
+
+            if (isPublic) {
+                fileUpload.style.display = 'block'; // Show file upload
+                imageUpload.style.display = 'none'; // Hide image upload
+                fileHelper.style.display = 'block'; // Show helper message for file upload
+                imageHelper.style.display = 'none'; // Hide helper message for image upload
+            } else {
+                fileUpload.style.display = 'none'; // Hide file upload
+                imageUpload.style.display = 'block'; // Show image upload
+                fileHelper.style.display = 'none'; // Hide helper message for file upload
+                imageHelper.style.display = 'block'; // Show helper message for image upload
+            }
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Canva, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: grey; 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url('{% static "images/add_bg.jpg" %}'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px; 
+}
+
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+        .nav-links a:hover {
+            background-color: #0088cc;
+        }
+
+.logo {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+    .logo h1 {
+        font-size: 15px;
+    }
+
+    .logo h2 {
+        font-size: 24.5px;
+        margin-top: 2px;
+        color: #007BFF;
+    }
+
+.add-resource-section {
+    padding: 2px 15px; 
+    background-color: #f4f4f4; 
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 123, 181, 0.6);
+}
+
+    .form-container h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.add-resource-section .custom-button {
+    background-color: #007bb5 !important; 
+    color: white !important;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 10px;
+    transition: background-color 0.3s;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+    .add-resource-section .custom-button:hover {
+        background-color: #005a8c !important; 
+    }
+
+.message {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+    .message.success {
+        background-color: #fff8db; 
+        color: #856404; 
+        border: 1px solid #ffeeba; 
+        padding: 10px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .message.error {
+        background-color: #f2dede;
+        color: #a94442;
+    }
+
+.form-container label,
+.form-container input,
+.form-container textarea,
+.form-container select,
+.form-container button {
+    margin-bottom: 10px; 
+}
+
+.form-container label {
+    margin-bottom: 2px;
+    margin-top: 6px;
+}
+
+.helper-text {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+    font-style: italic;
+}

@@ -1,0 +1,135 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Resources | Course Resource Sharing Platform</title>
+    <link rel="stylesheet" href="{% static 'css/browse_res.css' %}">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>COURSE RESOURCE</h1>
+                <h2>SHARING PLATFORM</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="{% url 'dashboard' %}">Dashboard</a></li>
+                <li><a href="{% url 'logged_browse_courses' %}">Browse Courses</a></li>
+                <li><a href="{% url 'browse_resource' %}">Browse Resources</a></li>
+                <li><a href="{% url 'logout' %}">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <h2>Filters</h2>
+            <form id="filter-form" method="GET" action="{% url 'browse_resource' %}">
+                <div class="filter-group">
+                    <label for="course">Course Name:</label>
+                    <select id="course" name="course">
+                        <option value="">All</option>
+                        {% for course in courses %}
+                        <option value="{{ course.coursename }}" {% if course.coursename == request.GET.course %}selected{% endif %}>
+                            {{ course.coursename }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="category">Category:</label>
+                    <select id="category" name="category">
+                        <option value="">All</option>
+                        {% for category in categories %}
+                        <option value="{{ category.categoryname }}" {% if category.categoryname == request.GET.category %}selected{% endif %}>
+                            {{ category.categoryname }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="rating">Rating:</label>
+                    <select id="rating" name="rating">
+                        <option value="">Any</option>
+                        <option value="5" {% if request.GET.rating == "5" %}selected{% endif %}>5 Stars</option>
+                        <option value="4" {% if request.GET.rating == "4" %}selected{% endif %}>4 Stars & Above</option>
+                        <option value="3" {% if request.GET.rating == "3" %}selected{% endif %}>3 Stars & Above</option>
+                        <option value="2" {% if request.GET.rating == "2" %}selected{% endif %}>2 Stars & Above</option>
+                        <option value="1" {% if request.GET.rating == "1" %}selected{% endif %}>1 Star & Above</option>
+                    </select>
+                </div>
+
+                <div class="filter-buttons">
+                    <button type="submit" id="apply-filters">Apply</button>
+                    <a href="{% url 'browse_resource' %}" id="clear-filters">Clear</a>
+                </div>
+            </form>
+        </aside>
+
+        <section class="content">
+            <div class="search-bar">
+                <form method="GET" action="{% url 'browse_resource' %}">
+                    <input type="text"
+                           id="search-input"
+                           name="search"
+                           placeholder="Search Resources"
+                           value="{{ request.GET.search }}">
+                    <button type="submit" id="search-btn">&#128269;</button>
+                </form>
+            </div>
+
+            <div class="resources">
+                <h1 style="text-align: center;">Explore Resources</h1>
+                <div class="resource-list">
+                    {% for resource in resources %}
+                    <div class="resource-card">
+                        <div class="card-header">
+                            <h3>{{ resource.resourcename }}</h3>
+                            <p class="meta">
+                                <strong>Uploaded by:</strong> {{ resource.lender.username }}
+                                <span class="date">on {{ resource.uploaded_on|date:"F j, Y, g:i a" }}</span>
+                            </p>
+                        </div>
+
+                        <div class="card-body">
+                            <p><strong>Description:</strong> {{ resource.description|truncatechars:150 }}</p>
+                            <p><strong>Category:</strong> {{ resource.category.categoryname }}</p>
+                            <p><strong>Course:</strong> {{ resource.course.coursename }}</p>
+                            <p><strong>Availability:</strong> {{ resource.availability|yesno:"Available,Unavailable" }}</p>
+                        </div>
+
+                        <a href="{% url 'resource_details' resource.resourceid %}" class="view-details-btn">View Details</a>
+                    </div>
+
+                    {% empty %}
+                    <p>No resources available at the moment. Check back later!</p>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="pagination">
+                <span class="step-links">
+                    {% if courses.has_previous %}
+                    <a href="?page=1">&laquo; First</a>
+                    <a href="?page={{ courses.previous_page_number }}">Previous</a>
+                    {% endif %}
+
+                    <span class="current">
+                        Page {{ courses.number }} of {{ courses.paginator.num_pages }}
+                    </span>
+
+                    {% if courses.has_next %}
+                    <a href="?page={{ courses.next_page_number }}">Next</a>
+                    <a href="?page={{ courses.paginator.num_pages }}">Last &raquo;</a>
+                    {% endif %}
+                </span>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+

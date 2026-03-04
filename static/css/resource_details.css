@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: #f5f5f5; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+        .nav-links a:hover {
+            background-color: #0088cc;
+        }
+
+.logo {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+    .logo h1 {
+        font-size: 15px;
+    }
+
+    .logo h2 {
+        font-size: 24.5px;
+        margin-top: 2px;
+        color: #007BFF;
+    }
+
+main {
+    padding: 30px 20px;
+}
+
+.resource-feed {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.resource-card {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-family: Arial, sans-serif;
+}
+
+    .resource-card:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+.card-header {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 20px;
+}
+
+    .card-header h3 {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .card-header small {
+        font-size: 14px;
+        opacity: 0.8;
+    }
+
+.card-body {
+    padding: 20px;
+    color: #333;
+}
+
+    .card-body p {
+        margin-bottom: 10px;
+        line-height: 1.6;
+        font-size: 15px;
+    }
+
+    .card-body strong {
+        color: #007BFF;
+    }
+
+.card-footer {
+    background-color: #f5f5f5;
+    padding: 15px 20px;
+    border-top: 1px solid #ddd;
+}
+
+    .card-footer h4 {
+        margin-bottom: 10px;
+        color: #555;
+    }
+
+.feedback {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+    .feedback strong {
+        color: #007BFF;
+        font-weight: bold;
+    }
+
+    .feedback p {
+        margin: 5px 0;
+    }
+
+.query-section, .add-feedback {
+    margin-top: 20px;
+}
+
+    .query-section h4, .add-feedback h4 {
+        margin-bottom: 10px;
+        color: #007BFF;
+        font-size: 18px;
+    }
+
+.query-comment {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.add-feedback form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+    .add-feedback form .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .add-feedback form label {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .add-feedback form textarea,
+    .add-feedback form select {
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    .add-feedback form button {
+        padding: 10px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .add-feedback form button:hover {
+            background-color: #0056b3;
+        }
+
+.post {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.meta {
+    font-size: 0.9em;
+    color: white;
+}
+
+.username {
+    font-weight: bold;
+    color: white; 
+}
+
+.date {
+    color: white;
+    margin-left: 5px;
+}

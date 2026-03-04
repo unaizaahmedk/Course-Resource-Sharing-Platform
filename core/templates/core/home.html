@@ -1,0 +1,39 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Resource Sharing Platform</title>
+    <link rel="stylesheet" href="{% static 'css/home_styles.css' %}">
+</head>
+<body class="dark-mode">
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>COURSE RESOURCE</h1>
+                <h2>SHARING PLATFORM</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'browse_courses' %}">Browse Courses</a></li>
+                <li><a href="{% url 'login' %}">Login</a></li>
+                <li><a href="{% url 'signup' %}">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="{% static 'images/blue.jpg' %}" alt="Background" class="hero-bg">
+        <div class="hero-content">
+            <h1 style="color: black;">Share Knowledge. Empower Learning.</h1>
+            <p style="color: #002147;">Access and share educational resources with ease.</p>
+            <a href="{% url 'signup' %}" class="get-started-button">Get Started</a>
+        </div>
+    </section>
+
+
+</body>
+</html>
+
