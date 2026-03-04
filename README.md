@@ -1,44 +1,38 @@
 # Course Resource Sharing Platform
 
-A Django-based web application where students can share, browse, and borrow academic resources across courses. The platform provides a structured, centralized hub for course material sharing, backed by a community rating system to ensure resource quality.
+A Django-based web application that enables students to share, browse, and borrow academic resources across courses. The application serves as a centralized hub where students can upload resources they own, discover resources shared by peers, and borrow physical materials, all in one place. The project was shortlisted as one of the top projects in the Database course.
 
 ---
 
-## About
+### Features
 
-Traditional course material sharing relies on message groups, email chains, or scattered cloud links. This platform replaces that with an organized system where students can upload resources they own, discover resources shared by peers, and borrow physical materials, all in one place.
+**1. User Authentication**
+Students can sign up with a username and email, with validation to prevent duplicate registrations and secure password hashing. Non-authenticated users can browse and view resources but cannot upload, download, or borrow anything. All such actions are restricted to logged-in users only. Admin access is available via Django's admin panel.
 
----
+**2. Resource Listing**
+Logged-in students can list a resource by providing its name, description, course, and category. Soft copy resources such as PDFs, notes, or books are uploaded as a file so other students can download them directly. Hard copy resources such as physical books or printed notes are uploaded as images so students can preview them and decide whether they want to borrow them physically.
 
-## Features
+**3. Browse and Search**
+All users can browse available resources, search by name or description, and filter by course and category. Results are paginated at 12 per page. Downloading or borrowing a resource requires logging in.
 
-**User Authentication**
-Sign up with username and email, with duplicate validation and secure password hashing. Non-authenticated users can browse and view resources but cannot upload, download, or borrow. Admin access is available via Django's admin panel.
+**4. Resource Detail Page**
+Each resource has a dedicated page showing its full details including description, course, and category, along with a downloadable file or preview images, average star rating out of 5, and all community reviews.
 
-**Resource Listing**
-Logged-in students can list a resource with a name, description, course, and category. Soft copy resources such as PDFs, notes, or books are uploaded as a file for direct download. Hard copy resources such as physical books or printed notes are uploaded as images so students can preview and decide whether to borrow them physically.
+**5. Borrow and Return**
+Students can borrow a hard copy resource by selecting a return date. Once borrowed, the resource is marked unavailable so no other student can borrow it at the same time. Students cannot borrow their own resources. Once returned, availability is restored.
 
-**Browse and Search**
-Search resources by name or description and filter by course and category. Results are paginated at 12 per page. Available to all users; downloading or borrowing requires login.
+**6. My Resources**
+Students can view all resources they have personally listed on the platform in one place, whether soft or hard copy.
 
-**Resource Detail Page**
-Full resource information including description, course, and category, along with a downloadable file or preview images, average star rating, and all community reviews.
+**7. Borrowed Resources**
+Students can view all resources they currently have on loan along with the date by which each must be returned.
 
-**Borrow and Return**
-Students can borrow a hard copy resource by selecting a return date. Borrowed resources are marked unavailable until returned. Students cannot borrow their own resources.
-
-**My Resources**
-Students can view all resources they have personally listed, whether soft or hard copy.
-
-**Borrowed Resources**
-Students can view all resources they currently have on loan along with their return dates.
-
-**Ratings and Feedback**
-Students can leave a star rating out of 5 and a written comment on any resource. The average rating is automatically recalculated on every new submission.
+**8. Ratings and Feedback**
+Students can leave a star rating out of 5 and a written comment on any resource. The average rating is automatically recalculated and updated on every new submission.
 
 ---
 
-## Tech Stack
+### Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -51,7 +45,7 @@ Students can leave a star rating out of 5 and a written comment on any resource.
 
 ---
 
-## Installation
+### Installation
 
 **Prerequisites:** Python 3.8+, pip, Git
 
@@ -82,7 +76,7 @@ Access the app at `http://127.0.0.1:8000/` and the admin panel at `http://127.0.
 
 ---
 
-## Project Structure
+### Project Structure
 
 ```
 resource_sharing/
@@ -108,7 +102,7 @@ resource_sharing/
 
 ---
 
-## Database Models
+### Database Models
 
 | Model | Key Fields |
 |---|---|
@@ -122,5 +116,3 @@ resource_sharing/
 | Lender | user, course, category, lendingdate |
 
 ---
-
-*Built by Unaiza Ahmed Khan*
