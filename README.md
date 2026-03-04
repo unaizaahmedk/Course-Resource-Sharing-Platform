@@ -1,247 +1,158 @@
 # Course Resource Sharing Platform
 
-A Django-based web application that enables students to share, browse, and borrow academic resources (documents, notes, and materials) across different courses. The platform facilitates collaborative learning by allowing users to upload resources and have them rated by the community.
+A Django-based web application where students can share, browse, and borrow academic resources across courses. The platform provides a structured, centralized hub for course material sharing, backed by a community rating system to ensure resource quality.
 
-## 📋 Table of Contents
+---
 
-- [About the Project](#about-the-project)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Database Models](#database-models)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
+## About the Project
 
-## 🎯 About the Project
+Traditional course material sharing relies on message groups, email chains, or scattered cloud links. This platform replaces that with an organized system where students can upload resources they own, discover resources shared by peers, and borrow physical materials — all in one place.
 
-**Course Resource Sharing Platform** is designed to bridge the gap between students in academic settings. Instead of students individually searching for course materials, this platform provides a centralized hub where:
+---
 
-- Students can upload and share resources (notes, PDFs, images, etc.)
-- Peers can browse and borrow resources from other students
-- Resource quality is maintained through a community rating system
-- Resources are organized by course and category for easy discovery
+## Features
 
-### Why This Project?
+### User Authentication
+- Sign up with username and email, with duplicate validation
+- Secure password hashing
+- Login and logout functionality
+- Non-authenticated users can browse and view resources but cannot upload, download, or borrow
+- Admin access via Django's admin panel
 
-Traditional course material sharing relies on email chains, message groups, or scattered cloud links. This platform provides a structured, organized, and rating-based system to ensure quality resource sharing while building a supportive learning community.
+### Resource Listing
+- Logged-in students can list a resource with a name, description, course, and category
+- Two resource types:
+  - **Soft Copy** — PDFs, notes, books, or any downloadable material uploaded as a file for direct download
+  - **Hard Copy** — Physical books or printed notes uploaded as images so students can preview and decide whether to borrow them physically
 
-## ✨ Features Implemented
-
-### 1. **User Authentication & Authorization**
-- Custom user model with email and username
-- Secure signup and login functionality
-- Role-based access (students/admins)
-- Password hashing and validation
-- Session-based authentication
-
-### 2. **Resource Management**
-- **Upload Resources** - Users can add resources with descriptions and select associated courses
-- **Two Resource Categories:**
-  - **Public Resources** - Can include files (PDFs, documents, etc.)
-  - **Borrowed Resources** - Can include multiple images for visual reference
-- **Browse Resources** - Search and filter by course, category, or keyword
-- **View Details** - Detailed resource pages with full descriptions and metadata
-
-### 3. **Course Management**
-- 14 pre-populated computer science courses (CS101-CS310)
-- Course browsing for both authenticated and anonymous users
-- Easy course selection when adding resources
-
-### 4. **Borrowing System**
-- Users can borrow available resources by specifying a return date
-- Automatic availability tracking (resources marked as unavailable when borrowed)
-- Borrowed resources dashboard showing all current borrowings
-- Return functionality to mark resources as available again
-- Return date validation to ensure realistic borrowing periods
-
-### 5. **Rating & Feedback System**
-- Users can rate resources on a 1-5 star scale
-- Optional comments/feedback on resources
-- Real-time average rating calculation
-- Display of community feedback on resource detail pages
-- Visual star rating display (filled and empty stars)
-
-### 6. **Dashboard**
-- Personalized user dashboard with quick links
-- Access to "My Resources" (uploaded resources)
-- Access to "Borrowed Resources" (active borrowings)
-- Easy resource addition from dashboard
-
-### 7. **Search & Filter**
-- Full-text search across resource names and descriptions
+### Browse and Search
+- Search resources by name or description
 - Filter by course and category
-- Pagination for better performance with large datasets
+- Results paginated at 12 per page
+- Available to all users; downloading or borrowing requires login
 
-### 8. **Responsive Design**
-- Mobile-friendly interface
-- Clean, modern CSS styling
-- Intuitive navigation bar
-- Category-specific styling for different pages
+### Resource Detail Page
+- Full resource information including description, course, and category
+- Downloadable file or preview images depending on resource type
+- Average star rating and all community reviews
 
-## 🛠 Tech Stack
+### Borrow and Return
+- Students can borrow a hard copy resource by selecting a return date
+- Borrowed resources are marked unavailable until returned
+- Students cannot borrow their own resources
+- Availability is restored once the resource is returned
 
-- **Backend:** Django 5.1.1 (Python web framework)
-- **Database:** SQLite (development); can be upgraded to PostgreSQL for production
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Authentication:** Django's built-in auth system with custom User model
-- **Media Handling:** Django ImageField and FileField for uploads
-- **Version Control:** Git & GitHub
+### My Resources
+- Students can view all resources they have personally listed, whether soft or hard copy
 
-## 🚀 Installation
+### Borrowed Resources
+- Students can view all resources they currently have on loan along with their return dates
+
+### Ratings and Feedback
+- Students can leave a star rating out of 5 and a written comment on any resource
+- Average rating is automatically recalculated on every new submission
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Backend | Python, Django 5.1.1 |
+| Database | SQLite |
+| Frontend | HTML5, CSS3, JavaScript |
+| Authentication | Custom AbstractBaseUser, Django Auth |
+| File Handling | Django FileField, ImageField |
+| Version Control | Git & GitHub |
+
+---
+
+## Installation
 
 ### Prerequisites
 - Python 3.8+
-- pip (Python package manager)
+- pip
 - Git
 
 ### Steps
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/unaizaahmedk/Course-Resource-Sharing-Platform.git
-   cd Course-Resource-Sharing-Platform
-   ```
-
-2. **Create a virtual environment:**
-   ```bash
-   python -m venv venv
-   source venv/Scripts/activate  # On Windows
-   # or
-   source venv/bin/activate      # On macOS/Linux
-   ```
-
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run migrations:**
-   ```bash
-   python manage.py migrate
-   ```
-
-5. **Create a superuser (admin):**
-   ```bash
-   python manage.py createsuperuser
-   ```
-
-6. **Run the development server:**
-   ```bash
-   python manage.py runserver
-   ```
-
-7. **Access the application:**
-   - Main app: `http://127.0.0.1:8000/`
-   - Admin panel: `http://127.0.0.1:8000/admin/`
-
-## 📖 Usage
-
-### For Students (Regular Users)
-
-1. **Sign Up** - Create an account with username, email, and password
-2. **Browse Courses** - Explore available courses and their resources
-3. **Add a Resource**:
-   - Navigate to Dashboard → Add Resources
-   - Select a course and category
-   - Upload file (for public) or images (for borrowed)
-4. **Borrow Resources** - Find resources and specify a return date
-5. **Rate Resources** - Leave ratings and feedback on borrowed resources
-6. **Return Resources** - Mark borrowed items as returned when done
-
-### For Administrators
-
-1. Access `/admin/` to manage:
-   - Users
-   - Courses
-   - Resources
-   - Categories
-   - Borrowing records
-   - Feedback and ratings
-
-## 📁 Project Structure
-
-```
-resource_sharing/
-├── core/                          # Main Django app
-│   ├── models.py                 # Database models (User, Course, Resource, etc.)
-│   ├── views.py                  # View functions for all pages
-│   ├── urls.py                   # URL routing
-│   ├── forms.py                  # Django forms
-│   ├── admin.py                  # Admin configuration
-│   ├── templates/core/           # HTML templates
-│   ├── migrations/               # Database migration files
-│   └── templatetags/             # Custom template filters
-├── resource_sharing/              # Project settings
-│   ├── settings.py               # Django configuration
-│   ├── urls.py                   # Main URL router
-│   └── wsgi.py                   # WSGI application
-├── static/
-│   ├── css/                      # Stylesheets
-│   └── images/                   # Static images
-├── resources/                     # Media upload directory
-│   ├── resources/                # Uploaded files
-│   └── resource_images/          # Uploaded images
-├── manage.py                      # Django management script
-└── db.sqlite3                     # SQLite database
+**1. Clone the repository**
+```bash
+git clone https://github.com/unaizaahmedk/Course-Resource-Sharing-Platform.git
+cd Course-Resource-Sharing-Platform
 ```
 
-## 🗄 Database Models
+**2. Create and activate a virtual environment**
+```bash
+python -m venv venv
+source venv/Scripts/activate   # Windows
+source venv/bin/activate        # macOS/Linux
+```
 
-### User
-- Custom user model with email-based authentication
-- Fields: userid, username, email, password, is_active, is_staff, is_admin, is_superuser
+**3. Install dependencies**
+```bash
+pip install -r requirements.txt
+```
 
-### Course
-- Fields: courseid, coursename, coursecode
+**4. Run migrations**
+```bash
+python manage.py migrate
+```
 
-### ResourceCategory
-- Fields: categoryid, categoryname, is_public (distinguishes public/borrowed)
+**5. Create a superuser**
+```bash
+python manage.py createsuperuser
+```
 
-### Resource
-- Fields: resourceid, resourcename, description, availability, course, category, lender, file, uploaded_on, average_rating, total_ratings
+**6. Start the development server**
+```bash
+python manage.py runserver
+```
 
-### ResourceImage
-- Fields: resource (FK), image (for borrowed resources)
-
-### Borrowing
-- Fields: borrowingid, borrower, resource, borrowdate, returndate, status
-
-### Feedback
-- Fields: feedbackid, resource, borrower, rating, comment
-
-### Lender
-- Fields: lenderid, user, course, category, lendingdate
-
-## 🔮 Future Enhancements
-
-- [ ] Email notifications for borrowing reminders
-- [ ] Advanced search with tags and filters
-- [ ] User profiles with sharing statistics
-- [ ] Resource recommendations based on ratings
-- [ ] File preview functionality (PDF, DOC)
-- [ ] Real-time chat between borrowers and lenders
-- [ ] Resource expiry and automatic archival
-- [ ] API endpoints for mobile app support
-- [ ] Two-factor authentication
-- [ ] Analytics dashboard for admins
-
-## 🤝 Contributing
-
-Contributions are welcome! To contribute:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+**7. Access the app**
+- Main app: `http://127.0.0.1:8000/`
+- Admin panel: `http://127.0.0.1:8000/admin/`
 
 ---
 
-**Built with ❤️ by Unaiza Ahmed K**
+## Project Structure
+
+```
+resource_sharing/
+├── core/
+│   ├── models.py               # Database models
+│   ├── views.py                # View functions
+│   ├── urls.py                 # URL routing
+│   ├── forms.py                # Django forms
+│   ├── admin.py                # Admin configuration
+│   ├── templates/core/         # HTML templates
+│   └── migrations/             # Database migrations
+├── resource_sharing/
+│   ├── settings.py             # Project settings
+│   ├── urls.py                 # Root URL configuration
+│   └── wsgi.py                 # WSGI entry point
+├── static/
+│   ├── css/                    # Stylesheets
+│   └── images/                 # Static images
+├── resources/                  # Media uploads
+├── manage.py
+└── db.sqlite3
+```
+
+---
+
+## Database Models
+
+| Model | Key Fields |
+|-------|------------|
+| User | userid, username, email, password, is_admin |
+| Course | courseid, coursename, coursecode |
+| ResourceCategory | categoryid, categoryname, is_public |
+| Resource | resourcename, description, availability, course, category, lender, file, average_rating |
+| ResourceImage | resource (FK), image |
+| Borrowing | borrower, resource, borrowdate, returndate, status |
+| Feedback | resource, borrower, rating, comment |
+| Lender | user, course, category, lendingdate |
+
+---
+
